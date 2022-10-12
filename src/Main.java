@@ -25,5 +25,16 @@ public class Main {
         System.out.println(box [2] + ", " + box[1] + ", " + box [0]);
         System.out.println(i [5] + ", " + i[4] + ", " + i [3] + ", " + i[2] + ", " + i [1] + ", " + i[0]);
 
-        }
-    }
+        // Задача 4
+
+        int [] array1 = {1, 2, 3};
+        for (int n =0; n<array1.length; n++) {
+            if (array1[n]%2!=0) {
+                array1[n]+=1;
+            }
+                System.out.print(array1 [n] + " ");
+            }
+   }
+
+}
+
